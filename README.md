@@ -88,9 +88,7 @@ The MQTT broker is located on your localhost port 1883 or on the `mqtt` service 
 
 ### Start building your flows
 
-Now you can start building your flows and deploy them to your gateway. You can find an example of the flows we built for a workshop [here](https://github.com/oriolrius/miot-nodered-demo).
-
-![Example of Industrial IoT gateway with modbus](https://user-images.githubusercontent.com/173156/164450459-ed577d78-bb41-4200-93f6-b39398ec0ad6.png)
+Now you can start building your flows and deploy them to your gateway. You can find the flow, clicking `Import`, then `Local` and then `iiot-gw.json`. You also can find an example of the flows we built for a workshop [here](https://github.com/oriolrius/miot-nodered-demo).
 
 
 ## Attribution
