@@ -1,4 +1,4 @@
-name: balena Node-RED MQTT
+name: IIoT Node-RED gateway
 type: sw.application
 description: >-
   Industrial IoT gateway compatible with Modbus to convert legacy to digital.
