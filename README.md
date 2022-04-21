@@ -62,27 +62,35 @@ ENCRIPTION_KEY | `balena` | the encription key used to store your credentials fi
 
 You **must** set the `USERNAME` and `PASSWORD` environment variables to be able to save or run programs in Node-RED.  
 
-
-
 ## Node-RED
 
 For running Node-RED, use the local IP address on port 80, if you are on the same network than your device. You also can use the `Publick Device URL` by balena to access to the Node-RED UI.
+
 Introduce the `USERNAME` and `PASSWORD` specified as a Variable on balenaCloud. The default are `balena`.
 
 ### Add Node-RED nodes needed
 
+![Add Node-RED modbus nodes](https://user-images.githubusercontent.com/173156/164450054-4942088f-7965-4c6d-909f-cc2c3e0e59de.png)
+
 Add the `node-red-contrib-modbus` nodes on your Node-RED. Open the top-right menu, click `Manage palette`. Go to the `Install` tab and search *node-red-contrib-modbus*. Click Install.
+
 Also add the `influxdb` nodes following the same process. Search *node-red-contrib-influxdb*  and install it.
 
 New blocks of nodes should appear on your left menu now called `Storage` and `Modbus`.
+
+![New blocks on NodeRED](https://user-images.githubusercontent.com/173156/164450156-5d32115e-422f-4efb-9f3f-fcb8dbcd17ea.png)
+
 
 ### Use the MQTT broker
 
 The MQTT broker is located on your localhost port 1883 or on the `mqtt` service running on the device.
 
+
 ### Start building your flows
 
 Now you can start building your flows and deploy them to your gateway. You can find an example of the flows we built for a workshop [here](https://github.com/oriolrius/miot-nodered-demo).
+
+![Example of Industrial IoT gateway with modbus](https://user-images.githubusercontent.com/173156/164450459-ed577d78-bb41-4200-93f6-b39398ec0ad6.png)
 
 
 ## Attribution
@@ -90,4 +98,3 @@ Now you can start building your flows and deploy them to your gateway. You can f
 - This is a result of a workshop made by [Oriol Rius](https://github.com/oriolrius) and [Marc Pous](https://github.com/mpous).
 - This is based on the [balena Node-RED block](https://github.com/balenablocks/balena-node-red) made by Carlo Curinga and others. And also inspired by the [Razikus Node-RED](https://github.com/Razikus/balena-nodered) project.
 - This is in joint effort between Carlo Curinga and Marc Pous to present in the [Node-RED Con 2021](https://nodered.jp/noderedcon2021/index-en.html).
-
