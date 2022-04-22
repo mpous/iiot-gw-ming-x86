@@ -1,6 +1,12 @@
 # Industrial IoT Gateway with Node-RED and MQTT broker running on balena
 
-This is a project based on the [balena Node-RED block](https://github.com/balenablocks/balena-node-red) which supports the Node-RED [balena flow](https://github.com/balena-io-projects/node-red-contrib-balena). It can be managed remotely via balena [publicURL](https://balena.io/docs/learn/manage/actions/#enable-public-device-url).
+This is a project based on the [balena Node-RED block](https://github.com/balenablocks/balena-node-red) which supports the Node-RED [balena flow](https://github.com/balena-io-projects/node-red-contrib-balena). 
+
+### Disclaimer
+
+This project is for *educational purposes only*. Do not deploy it into your premises without understanding what you are doing. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR SECURITY.
+
+We strongly recommend you to have some coding and networking knowledge. Do not hesitate to read the source code and understand the mechanism of this project or contact the authors.
 
 ## Requirements
 
