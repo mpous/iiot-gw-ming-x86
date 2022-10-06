@@ -1,6 +1,8 @@
-# Industrial IoT Gateway with Node-RED and MQTT broker running on balena
+# MING (MQTT, InfluxDB, NodeRED and Grafana)
 
-This is a project based on the [balena Node-RED block](https://github.com/balenablocks/balena-node-red) which supports the Node-RED [balena flow](https://github.com/balena-io-projects/node-red-contrib-balena). 
+## Industrial IoT Gateway with Node-RED and MQTT broker running on balena
+
+This is a project based on the [balena Node-RED block](https://github.com/balenablocks/balena-node-red) which supports the Node-RED [balena flow](https://github.com/balena-io-projects/node-red-contrib-balena) and works on x86 devices. 
 
 ### Disclaimer
 
