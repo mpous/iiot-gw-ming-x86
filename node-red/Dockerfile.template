@@ -12,6 +12,8 @@ RUN JOBS=MAX npm install -g --production --unsafe-perm \
       node-gyp \
       serialport \
       node-red-node-random \
+      node-red-contrib-modbus \
+      node-red-contrib-influxdb \
       node-red-contrib-balena \
     && JOBS=MAX npm install --unsafe-perm --production && npm cache clean --force
 
