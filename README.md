@@ -32,7 +32,7 @@ You have two options here:
 
 You can deploy this project to a new balenaCloud application in one click using the button below:
 
-[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/mpous/nodeRED-iiot-gateway)
+[![](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/mpous/iiot-gw-ming-x86)
 
 Or, you can create an application in your balenaCloud dashboard and balena push this code to it the traditional way.
 
@@ -49,8 +49,8 @@ While the device boots (it will eventually show up in the Balena dashboard) we w
 
 ```
 cd ~/workspace
-git clone https://github.com/mpous/nodeRED-iiot-gateway
-cd nodeRED-iiot-gateway
+git clone https://github.com/mpous/iiot-gw-ming-x86
+cd iiot-gw-ming-x86
 ```
 
 - Using [Balena CLI](https://www.balena.io/docs/reference/cli/), push the code with `balena push <fleet-name>`
@@ -80,11 +80,9 @@ Introduce the `USERNAME` and `PASSWORD` specified as a Variable on balenaCloud. 
 
 ![Add Node-RED modbus nodes](https://user-images.githubusercontent.com/173156/164450054-4942088f-7965-4c6d-909f-cc2c3e0e59de.png)
 
-Add the `node-red-contrib-modbus` nodes on your Node-RED. Open the top-right menu, click `Manage palette`. Go to the `Install` tab and search *node-red-contrib-modbus*. Click Install.
+If you need to add another library or nodes on your Node-RED. Open the top-right menu, click `Manage palette`. Go to the `Install` tab and search (e.g.) *node-red-contrib-modbus*. And click Install.
 
-Also add the `influxdb` nodes following the same process. Search *node-red-contrib-influxdb*  and install it.
-
-New blocks of nodes should appear on your left menu now called `Storage` and `Modbus`.
+New blocks of nodes should appear on your left menu on new sections or not.
 
 ![New blocks on NodeRED](https://user-images.githubusercontent.com/173156/164450156-5d32115e-422f-4efb-9f3f-fcb8dbcd17ea.png)
 
