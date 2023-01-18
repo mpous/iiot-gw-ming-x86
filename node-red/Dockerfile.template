@@ -14,6 +14,7 @@ RUN JOBS=MAX npm install -g --production --unsafe-perm \
       node-red-node-random \
       node-red-contrib-modbus \
       node-red-contrib-influxdb \
+      node-red-contrib-buffer-parser \
       node-red-contrib-balena \
     && JOBS=MAX npm install --unsafe-perm --production && npm cache clean --force
 
